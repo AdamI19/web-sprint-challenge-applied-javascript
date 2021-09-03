@@ -33,11 +33,11 @@ return div;
   // </div>
  //
 }
-console.log(Header());
+// console.log(Header());
 
 
-const headerAppender = (header) => {
- Header(header);
+const headerAppender = (selector) => {
+ Header();
  
  
  // TASK 2

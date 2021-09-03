@@ -57,7 +57,7 @@ import axios from 'axios';
      console.log(res.data.topics);
    let newvariables = [];
     res.data.topics.forEach(element => { newvariables.push(element)});
-       const newTabs = Tabs(newvariables);
+        const newTabs = Tabs(newvariables);
         entryPoint.appendChild(newTabs)}).catch(err => { console.log(err)});
         }
           
